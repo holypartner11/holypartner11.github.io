@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-0bf142c3a4",
     "provinceId": "province-e1f6b2f96a",
@@ -9,9 +9,46 @@
     "cityName": "郑州市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-zhengzhou-tissue-20260823",
+      "cityId": "city-0bf142c3a4",
+      "name": "2026郑州国际生活用纸及卫生用品展览会",
+      "type": "exhibition",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-25",
+      "venue": "郑州国际会展中心",
+      "status": "pending",
+      "confidence": "multi_source",
+      "sourceName": "聚展网、涂料在线交叉验证",
+      "sourceUrl": "https://www.jufair.com/exhibition/9388.html",
+      "sourceEvidence": [
+        {
+          "name": "聚展网",
+          "url": "https://www.jufair.com/exhibition/9388.html",
+          "role": "corroborating"
+        },
+        {
+          "name": "涂料在线",
+          "url": "https://www.coatingol.com/shangxun/Article-XAxUqf-577442.html",
+          "role": "corroborating"
+        }
+      ],
+      "reviewNote": "三个商业来源的日期与场馆基本一致，但未找到主办方或政府页面，暂列待核验。",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.jufair.com/exhibition/9388.html"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-8347e3992d",
     "provinceId": "province-99c454c768",
@@ -9,9 +9,46 @@
     "cityName": "无锡市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-wuxi-machinery-cluster-20260820",
+      "cityId": "city-8347e3992d",
+      "name": "2026无锡太湖国际机床及泵阀展览会",
+      "type": "exhibition",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-22",
+      "venue": "无锡太湖国际博览中心",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "无锡太湖机床展及泵阀展官网",
+      "sourceUrl": "https://www.thjcz.com/news_item.asp?None=1&nlt=352",
+      "sourceEvidence": [
+        {
+          "name": "无锡太湖国际机床展官网",
+          "url": "https://www.thjcz.com/news_item.asp?None=1&nlt=352",
+          "role": "official"
+        },
+        {
+          "name": "无锡太湖国际泵阀展官网",
+          "url": "https://www.thbfz.cn/",
+          "role": "official"
+        }
+      ],
+      "clusterNote": "同场同日的机床展与泵阀展按一个事件簇展示。",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.thjcz.com/news_item.asp?None=1&nlt=352"
+        }
+      ]
+    }
+  ]
 }

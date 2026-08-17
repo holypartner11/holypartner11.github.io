@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-26ca34e59c",
     "provinceId": "province-99c454c768",
@@ -9,9 +9,56 @@
     "cityName": "苏州市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-suzhou-medicalfair-20260820",
+      "cityId": "city-26ca34e59c",
+      "name": "Medical Fair China 2026 医疗器械创新展",
+      "type": "exhibition",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-22",
+      "venue": "苏州国际博览中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "Medical Fair China 官网",
+      "sourceUrl": "https://www.medicalfair.cn/index",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.medicalfair.cn/index"
+        }
+      ]
+    },
+    {
+      "id": "sport-suzhou-disc-accuracy-20260821",
+      "cityId": "city-26ca34e59c",
+      "name": "2026全国掷准飞盘锦标赛",
+      "type": "sport",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "苏州市相城区盛泽湖月季园",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "苏州市人民政府",
+      "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/wtly/202603/0ecb22c619fb4564a538cf1147e6a005.shtml",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/wtly/202603/0ecb22c619fb4564a538cf1147e6a005.shtml"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-accf478645",
     "provinceId": "province-99c454c768",
@@ -9,9 +9,33 @@
     "cityName": "南京市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-nanjing-catering-hotpot-20260821",
+      "cityId": "city-accf478645",
+      "name": "企阳·2026第八届南京餐饮业暨火锅食材用品展览会",
+      "type": "exhibition",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "南京国际博览中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "企阳南京餐饮暨火锅食材展官网",
+      "sourceUrl": "https://www.zgcyscj.com/newsinfo/10755211.html",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.zgcyscj.com/newsinfo/10755211.html"
+        }
+      ]
+    }
+  ]
 }

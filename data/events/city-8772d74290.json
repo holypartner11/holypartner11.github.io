@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-8772d74290",
     "provinceId": "province-d9c54797cb",
@@ -9,11 +9,103 @@
     "cityName": "上海市"
   },
   "sourceHealth": {
-    "healthy": 2,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
   "events": [
+    {
+      "id": "expo-shanghai-book-fair-20260812",
+      "cityId": "city-8772d74290",
+      "name": "2026上海书展",
+      "type": "culture",
+      "startDate": "2026-08-12",
+      "endDate": "2026-08-18",
+      "venue": "上海展览中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "上海市会展业公共信息服务平台",
+      "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH"
+        }
+      ]
+    },
+    {
+      "id": "expo-shanghai-pet-fair-20260819",
+      "cityId": "city-8772d74290",
+      "name": "2026亚洲宠物展览会",
+      "type": "exhibition",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-23",
+      "venue": "上海新国际博览中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "上海市会展业公共信息服务平台",
+      "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH"
+        }
+      ]
+    },
+    {
+      "id": "expo-shanghai-viv-asia-20260819",
+      "cityId": "city-8772d74290",
+      "name": "2026亚洲国际集约化畜牧展览会（上海）",
+      "type": "exhibition",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-21",
+      "venue": "上海世博展览馆",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "上海市会展业公共信息服务平台",
+      "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH"
+        }
+      ]
+    },
+    {
+      "id": "expo-shanghai-rv-20260822",
+      "cityId": "city-8772d74290",
+      "name": "第二十七届上海国际房车露营展",
+      "type": "exhibition",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-24",
+      "venue": "上海汽车会展中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "上海市会展业公共信息服务平台",
+      "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://expo.sww.sh.gov.cn/browser/search-entp-index.jspx?code=SEARCH"
+        }
+      ]
+    },
     {
       "id": "exam-vet-shanghai-20260823",
       "cityId": "city-8772d74290",
@@ -27,8 +119,8 @@
       "sourceName": "上海市农业农村委员会",
       "sourceUrl": "https://nyncw.sh.gov.cn/gsgg/20260724/bee388b922a641019954d8a921f59ff3.html",
       "firstSeenAt": "2026-08-16T10:42:00+08:00",
-      "lastSeenAt": "2026-08-17T07:30:00+08:00",
-      "lastVerifiedAt": "2026-08-17T07:30:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
       "history": [
         {
           "changedAt": "2026-08-16T10:42:00+08:00",

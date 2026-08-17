@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-4936b916ca",
     "provinceId": "province-fa89ccdea4",
@@ -11,7 +11,7 @@
   "sourceHealth": {
     "healthy": 1,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
   "events": [
     {
@@ -27,8 +27,8 @@
       "sourceName": "国家体育总局、文化和旅游部赛事目录",
       "sourceUrl": "https://www.sport.gov.cn/jjs/n5039/c29748367/content.html",
       "firstSeenAt": "2026-08-16T10:38:00+08:00",
-      "lastSeenAt": "2026-08-17T07:30:00+08:00",
-      "lastVerifiedAt": "2026-08-17T07:30:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
       "history": [
         {
           "changedAt": "2026-08-16T10:38:00+08:00",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-bd4294bc65",
     "provinceId": "province-234a7010c8",
@@ -9,9 +9,46 @@
     "cityName": "宁波市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-ningbo-auto-20260821",
+      "cityId": "city-bd4294bc65",
+      "name": "2026第45届宁波国际汽车博览会",
+      "type": "exhibition",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-24",
+      "venue": "宁波国际会展中心",
+      "status": "pending",
+      "confidence": "multi_source",
+      "sourceName": "聚展网、展会之窗交叉验证",
+      "sourceUrl": "https://www.jufair.com/exhibition/ningbo-auto-fair/",
+      "sourceEvidence": [
+        {
+          "name": "聚展网",
+          "url": "https://www.jufair.com/exhibition/ningbo-auto-fair/",
+          "role": "corroborating"
+        },
+        {
+          "name": "展会之窗",
+          "url": "https://www.expozm.com/zhanhui/2026061518658.html",
+          "role": "corroborating"
+        }
+      ],
+      "reviewNote": "两个商业来源日期与场馆一致，但未找到主办方或政府页面，暂列待核验。",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.jufair.com/exhibition/ningbo-auto-fair/"
+        }
+      ]
+    }
+  ]
 }

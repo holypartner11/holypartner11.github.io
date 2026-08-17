@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-3b194317db",
     "provinceId": "province-9de0727170",
@@ -9,11 +9,34 @@
     "cityName": "广州市"
   },
   "sourceHealth": {
-    "healthy": 2,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
   "events": [
+    {
+      "id": "expo-guangzhou-aag-20260819",
+      "cityId": "city-3b194317db",
+      "name": "2026广州国际汽车零部件及售后市场展览会（AAG）",
+      "type": "exhibition",
+      "startDate": "2026-08-19",
+      "endDate": "2026-08-21",
+      "venue": "广州保利世贸博览馆",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "法兰克福展览 AAG 官方资料",
+      "sourceUrl": "https://www.hk.messefrankfurt.com/content/dam/messefrankfurt-redaktion/automechanikashanghai/aag/AAG26_FactSheet_CN.pdf",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.hk.messefrankfurt.com/content/dam/messefrankfurt-redaktion/automechanikashanghai/aag/AAG26_FactSheet_CN.pdf"
+        }
+      ]
+    },
     {
       "id": "gzfair-20260821",
       "cityId": "city-3b194317db",
@@ -27,8 +50,8 @@
       "sourceName": "广州博览会官网",
       "sourceUrl": "https://www.gzfair.com.cn/",
       "firstSeenAt": "2026-08-16T10:20:00+08:00",
-      "lastSeenAt": "2026-08-17T07:30:00+08:00",
-      "lastVerifiedAt": "2026-08-17T07:30:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
       "history": [
         {
           "changedAt": "2026-08-16T10:20:00+08:00",

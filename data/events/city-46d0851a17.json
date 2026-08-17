@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-46d0851a17",
     "provinceId": "province-9b6961ee7e",
@@ -9,9 +9,46 @@
     "cityName": "呼和浩特市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-hohhot-agri-cluster-20260815",
+      "cityId": "city-46d0851a17",
+      "name": "2026内蒙古农牧业机械及配件展览会暨同期产业展",
+      "type": "exhibition",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-17",
+      "venue": "敕勒川国际会展中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "内蒙古农牧业机械展官网",
+      "sourceUrl": "https://www.nmgexpo.cn/cnt_exbIntro.html",
+      "sourceEvidence": [
+        {
+          "name": "内蒙古农牧业机械展官网",
+          "url": "https://www.nmgexpo.cn/cnt_exbIntro.html",
+          "role": "official"
+        },
+        {
+          "name": "内蒙古食品加工与包装机械展官网",
+          "url": "https://www.foodnmg.com/html/zhanhuigaikuang/zhanpinjieshao/",
+          "role": "official"
+        }
+      ],
+      "clusterNote": "同场同日的农机、农牧机械及食品加工包装展按一个住宿需求事件簇展示，避免重复计数。",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": "2026-08-17T12:45:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.nmgexpo.cn/cnt_exbIntro.html"
+        }
+      ]
+    }
+  ]
 }

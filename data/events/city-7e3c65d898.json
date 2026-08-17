@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-7e3c65d898",
     "provinceId": "province-fa89ccdea4",
@@ -9,9 +9,46 @@
     "cityName": "济南市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-jinan-ev-20260821",
+      "cityId": "city-7e3c65d898",
+      "name": "2026济南新能源电动车及零部件展览会",
+      "type": "exhibition",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "济南黄河国际会展中心",
+      "status": "pending",
+      "confidence": "multi_source",
+      "sourceName": "聚展网、山东会展网交叉验证",
+      "sourceUrl": "https://www.jufair.com/exhibition/9856.html",
+      "sourceEvidence": [
+        {
+          "name": "聚展网",
+          "url": "https://www.jufair.com/exhibition/9856.html",
+          "role": "corroborating"
+        },
+        {
+          "name": "山东会展网",
+          "url": "https://shandong.andexpo.com/expotype-5.html",
+          "role": "corroborating"
+        }
+      ],
+      "reviewNote": "两个商业来源日期与场馆一致，但未找到主办方或政府页面，暂列待核验。",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.jufair.com/exhibition/9856.html"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817073000",
-  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "version": "20260817124500",
+  "generatedAt": "2026-08-17T04:48:50.340Z",
   "city": {
     "id": "city-ec97bb9e61",
     "provinceId": "province-234a7010c8",
@@ -9,9 +9,46 @@
     "cityName": "杭州市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
   },
-  "events": []
+  "events": [
+    {
+      "id": "expo-hangzhou-security-ai-fire-20260818",
+      "cityId": "city-ec97bb9e61",
+      "name": "2026杭州数字安防、人工智能及应急消防展览会",
+      "type": "exhibition",
+      "startDate": "2026-08-18",
+      "endDate": "2026-08-20",
+      "venue": "杭州国际博览中心",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "杭州安防展及杭州应急消防展官网",
+      "sourceUrl": "https://www.zhcsexpo.com.cn/",
+      "sourceEvidence": [
+        {
+          "name": "浙江（杭州）国际安防产品博览会官网",
+          "url": "https://www.zhcsexpo.com.cn/",
+          "role": "official"
+        },
+        {
+          "name": "杭州应急消防展暨长三角人工智能大会官网",
+          "url": "https://www.cepme.com.cn/",
+          "role": "official"
+        }
+      ],
+      "clusterNote": "同场同日的安防、人工智能和应急消防展按一个事件簇展示。",
+      "firstSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastSeenAt": "2026-08-17T12:45:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T12:45:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.zhcsexpo.com.cn/"
+        }
+      ]
+    }
+  ]
 }
