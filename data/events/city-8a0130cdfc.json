@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-8a0130cdfc",
+    "provinceId": "province-beaf52b426",
+    "provinceName": "安徽省",
+    "cityName": "宣城市"
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": []
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-30aa0760c0",
+    "provinceId": "province-9de0727170",
+    "provinceName": "广东省",
+    "cityName": "珠海市"
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": []
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-2fd796149b",
+    "provinceId": "province-f4aa2fb986",
+    "provinceName": "陕西省",
+    "cityName": "安康市"
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": []
+}

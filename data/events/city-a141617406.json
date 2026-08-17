@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-a141617406",
+    "provinceId": "province-92c5737113",
+    "provinceName": "黑龙江省",
+    "cityName": "哈尔滨市"
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": []
+}

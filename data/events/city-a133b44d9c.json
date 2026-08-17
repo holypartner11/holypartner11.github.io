@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-a133b44d9c",
+    "provinceId": "province-98e1d8ad45",
+    "provinceName": "澳门特别行政区",
+    "cityName": "澳门特别行政区"
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": []
+}

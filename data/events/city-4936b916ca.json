@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-4936b916ca",
+    "provinceId": "province-fa89ccdea4",
+    "provinceName": "山东省",
+    "cityName": "日照市"
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": [
+    {
+      "id": "sports-youth-athletics-rizhao-20260823",
+      "cityId": "city-4936b916ca",
+      "name": "第二届全国青少年田径运动会",
+      "type": "sport",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-27",
+      "venue": "日照市（具体场馆以官方赛程为准）",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "国家体育总局、文化和旅游部赛事目录",
+      "sourceUrl": "https://www.sport.gov.cn/jjs/n5039/c29748367/content.html",
+      "firstSeenAt": "2026-08-16T10:38:00+08:00",
+      "lastSeenAt": "2026-08-17T07:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T07:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-16T10:38:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.sport.gov.cn/jjs/n5039/c29748367/content.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-3b194317db",
+    "provinceId": "province-9de0727170",
+    "provinceName": "广东省",
+    "cityName": "广州市"
+  },
+  "sourceHealth": {
+    "healthy": 2,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": [
+    {
+      "id": "gzfair-20260821",
+      "cityId": "city-3b194317db",
+      "name": "第34届广州博览会",
+      "type": "exhibition",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "中国进出口商品交易会展馆",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "广州博览会官网",
+      "sourceUrl": "https://www.gzfair.com.cn/",
+      "firstSeenAt": "2026-08-16T10:20:00+08:00",
+      "lastSeenAt": "2026-08-17T07:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T07:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-16T10:20:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.gzfair.com.cn/"
+        }
+      ]
+    }
+  ]
+}

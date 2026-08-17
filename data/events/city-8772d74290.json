@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-8772d74290",
+    "provinceId": "province-d9c54797cb",
+    "provinceName": "上海市",
+    "cityName": "上海市"
+  },
+  "sourceHealth": {
+    "healthy": 2,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": [
+    {
+      "id": "exam-vet-shanghai-20260823",
+      "cityId": "city-8772d74290",
+      "name": "2026年全国执业兽医资格考试（上海考区）",
+      "type": "exam",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-23",
+      "venue": "上海考区（具体地点以准考证为准）",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "上海市农业农村委员会",
+      "sourceUrl": "https://nyncw.sh.gov.cn/gsgg/20260724/bee388b922a641019954d8a921f59ff3.html",
+      "firstSeenAt": "2026-08-16T10:42:00+08:00",
+      "lastSeenAt": "2026-08-17T07:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T07:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-16T10:42:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://nyncw.sh.gov.cn/gsgg/20260724/bee388b922a641019954d8a921f59ff3.html"
+        }
+      ]
+    }
+  ]
+}

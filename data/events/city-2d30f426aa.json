@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "city": {
+    "id": "city-2d30f426aa",
+    "provinceId": "province-5283e881a4",
+    "provinceName": "新疆维吾尔自治区",
+    "cityName": "喀什地区",
+    "needsGeoReview": true
+  },
+  "sourceHealth": {
+    "healthy": 1,
+    "failed": 0,
+    "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00"
+  },
+  "events": []
+}

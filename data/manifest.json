@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "version": "20260817073000",
+  "previousVersion": null,
+  "generatedAt": "2026-08-17T02:25:48.742Z",
+  "lastSuccessfulRunAt": "2026-08-17T07:30:00+08:00",
+  "cityCount": 72,
+  "eventCount": 6,
+  "dataStatus": "healthy"
+}
