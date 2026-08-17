@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-4090d08287",
     "provinceId": "province-beaf52b426",
@@ -9,9 +9,59 @@
     "cityName": "阜阳市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-4090d08287",
+    "cityName": "阜阳市",
+    "provinceName": "安徽省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-fuyang-homeexpo-official"
+    ],
+    "candidateEventIds": [
+      "expo-fuyang-home-20260821"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "expo-fuyang-home-20260821",
+      "cityId": "city-4090d08287",
+      "name": "2026阜阳蓝装家博会",
+      "type": "exhibition",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "阜阳会展中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "蓝装家博会阜阳站官网",
+      "sourceUrl": "https://www.jbh.net.cn/fy/",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.jbh.net.cn/fy/"
+        }
+      ]
+    }
+  ]
 }

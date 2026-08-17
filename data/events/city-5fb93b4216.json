@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-5fb93b4216",
     "provinceId": "province-aab01ad3c1",
@@ -9,9 +9,71 @@
     "cityName": "沈阳市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-5fb93b4216",
+    "cityName": "沈阳市",
+    "provinceName": "辽宁省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "corroborated",
+    "sourceRunIds": [
+      "source-shenyang-concert-bendibao"
+    ],
+    "candidateEventIds": [
+      "performance-shenyang-chenli-20260822"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "performance-shenyang-chenli-20260822",
+      "cityId": "city-5fb93b4216",
+      "name": "陈粒《一粒》十周年演唱会沈阳站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "三生制药体育馆（原辽宁体育馆）",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "沈阳本地宝、演出票务排期",
+      "sourceUrl": "https://sy.bendibao.com/xiuxian/2026420/85833.shtm",
+      "sourceEvidence": [
+        {
+          "name": "沈阳本地宝演出指南",
+          "url": "https://sy.bendibao.com/xiuxian/2026420/85833.shtm",
+          "role": "corroborating"
+        },
+        {
+          "name": "沈阳演出票务排期",
+          "url": "https://www.ypiao.com/yanchu/shenyang/",
+          "role": "corroborating"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://sy.bendibao.com/xiuxian/2026420/85833.shtm"
+        }
+      ]
+    }
+  ]
 }

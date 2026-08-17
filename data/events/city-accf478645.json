@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-accf478645",
     "provinceId": "province-99c454c768",
@@ -9,9 +9,39 @@
     "cityName": "南京市"
   },
   "sourceHealth": {
-    "healthy": 2,
+    "healthy": 5,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-accf478645",
+    "cityName": "南京市",
+    "provinceName": "江苏省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-nanjing-olympic-official",
+      "source-nanjing-shan-ticket-1",
+      "source-nanjing-shan-ticket-2"
+    ],
+    "candidateEventIds": [
+      "expo-nanjing-catering-hotpot-20260821",
+      "performance-nanjing-shanyichun-20260822",
+      "performance-nanjing-wangyuan-20260822"
+    ],
+    "confirmedEventCount": 3,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
     {
@@ -34,6 +64,64 @@
           "changedAt": "2026-08-17T12:45:00+08:00",
           "changeType": "created",
           "sourceUrl": "https://www.zgcyscj.com/newsinfo/10755211.html"
+        }
+      ]
+    },
+    {
+      "id": "performance-nanjing-shanyichun-20260822",
+      "cityId": "city-accf478645",
+      "name": "单依纯「纯妹妹2.0」巡回演唱会南京站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "梦之蓝青奥体育公园体育馆",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "摩天轮、有票网",
+      "sourceUrl": "https://www.motianlun.cn/show-artist-detail/artist-detail?artistId=645b77185ac1cb0001fe4291",
+      "sourceEvidence": [
+        {
+          "name": "摩天轮单依纯巡演页",
+          "url": "https://www.motianlun.cn/show-artist-detail/artist-detail?artistId=645b77185ac1cb0001fe4291",
+          "role": "corroborating"
+        },
+        {
+          "name": "有票网南京单依纯演出页",
+          "url": "https://have-tickets.com/zh-tw/detail/dEtyZ1lnMDVPMVowb203UmJTRWJqZz09.html",
+          "role": "corroborating"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.motianlun.cn/show-artist-detail/artist-detail?artistId=645b77185ac1cb0001fe4291"
+        }
+      ]
+    },
+    {
+      "id": "performance-nanjing-wangyuan-20260822",
+      "cityId": "city-accf478645",
+      "name": "王源2026宇宙超级无敌大大狂欢巡回演唱会南京站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "南京奥体中心体育场",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "南京奥体中心官网",
+      "sourceUrl": "https://www.njaoti.com/activety/?category=2&page=4&type=list",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.njaoti.com/activety/?category=2&page=4&type=list"
         }
       ]
     }

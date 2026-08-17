@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-89f5280831",
     "provinceId": "province-9de0727170",
@@ -9,9 +9,38 @@
     "cityName": "深圳市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-89f5280831",
+    "cityName": "深圳市",
+    "provinceName": "广东省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "corroborated",
+    "sourceRunIds": [
+      "source-shenzhen-concert-bendibao",
+      "source-shenzhen-concert-ticket"
+    ],
+    "candidateEventIds": [
+      "sports-baseball-shenzhen-20260815",
+      "sports-youth-swim-shenzhen-20260821",
+      "performance-shenzhen-asen-20260822"
+    ],
+    "confirmedEventCount": 3,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
     {
@@ -57,6 +86,41 @@
           "changedAt": "2026-08-16T10:32:00+08:00",
           "changeType": "created",
           "sourceUrl": "https://www.sport.gov.cn/jjs/n5039/c29748367/content.html"
+        }
+      ]
+    },
+    {
+      "id": "performance-shenzhen-asen-20260822",
+      "cityId": "city-89f5280831",
+      "name": "艾志恒Asen 2026巡回演唱会深圳站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "深圳大运中心体育馆",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "深圳本地宝、有票网",
+      "sourceUrl": "https://m.bendibao.com/show924885.html",
+      "sourceEvidence": [
+        {
+          "name": "深圳本地宝大运中心演出排期",
+          "url": "https://m.bendibao.com/show924885.html",
+          "role": "corroborating"
+        },
+        {
+          "name": "有票网深圳大运中心排期",
+          "url": "https://www.ypiao.com/yanchu/scdyzxtyg/",
+          "role": "corroborating"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://m.bendibao.com/show924885.html"
         }
       ]
     }

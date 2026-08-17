@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-46d0851a17",
     "provinceId": "province-9b6961ee7e",
@@ -9,9 +9,36 @@
     "cityName": "呼和浩特市"
   },
   "sourceHealth": {
-    "healthy": 2,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-46d0851a17",
+    "cityName": "呼和浩特市",
+    "provinceName": "内蒙古自治区",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-hohhot-halfmarathon-official"
+    ],
+    "candidateEventIds": [
+      "expo-hohhot-agri-cluster-20260815",
+      "sport-hohhot-halfmarathon-20260823"
+    ],
+    "confirmedEventCount": 2,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
     {
@@ -47,6 +74,29 @@
           "changedAt": "2026-08-17T12:45:00+08:00",
           "changeType": "created",
           "sourceUrl": "https://www.nmgexpo.cn/cnt_exbIntro.html"
+        }
+      ]
+    },
+    {
+      "id": "sport-hohhot-halfmarathon-20260823",
+      "cityId": "city-46d0851a17",
+      "name": "2026敕勒川草原半程马拉松赛",
+      "type": "sport",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-23",
+      "venue": "敕勒川草原及内蒙古少数民族群众文化体育运动中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "内蒙古全民健身公共服务平台",
+      "sourceUrl": "https://www.nmgesports.com/match/detail/660/1.shtml",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.nmgesports.com/match/detail/660/1.shtml"
         }
       ]
     }

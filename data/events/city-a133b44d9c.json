@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-a133b44d9c",
     "provinceId": "province-98e1d8ad45",
@@ -9,9 +9,109 @@
     "cityName": "澳门特别行政区"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-a133b44d9c",
+    "cityName": "澳门特别行政区",
+    "provinceName": "澳门特别行政区",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-macao-mice-gov",
+      "source-macao-sands-official"
+    ],
+    "candidateEventIds": [
+      "forum-macao-youth-iad-20260815",
+      "expo-macao-food-living-cluster-20260821",
+      "performance-macao-lay-20260822"
+    ],
+    "confirmedEventCount": 3,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "forum-macao-youth-iad-20260815",
+      "cityId": "city-a133b44d9c",
+      "name": "世界青年论坛·未来人文领导力暨IAD全球赛2026",
+      "type": "conference",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-19",
+      "venue": "澳门（具体场地以澳门会展网为准）",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "澳门会展网",
+      "sourceUrl": "https://www.mice.gov.mo/sc/",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.mice.gov.mo/sc/"
+        }
+      ]
+    },
+    {
+      "id": "expo-macao-food-living-cluster-20260821",
+      "cityId": "city-a133b44d9c",
+      "name": "食品嘉年华会暨宜居生活食趣展2026",
+      "type": "exhibition",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "澳门（具体场地以澳门会展网为准）",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "澳门会展网",
+      "sourceUrl": "https://www.mice.gov.mo/sc/",
+      "clusterNote": "澳门会展网列出的同日食品嘉年华会与宜居生活食趣展按一个住宿需求事件簇展示。",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.mice.gov.mo/sc/"
+        }
+      ]
+    },
+    {
+      "id": "performance-macao-lay-20260822",
+      "cityId": "city-a133b44d9c",
+      "name": "张艺兴斗战胜佛澳门限定演唱会",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "venue": "澳门威尼斯人综艺馆",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "澳门威尼斯人官网",
+      "sourceUrl": "https://www.sandsresortsmacao.cn/entertainment/lay-zhang-2026.html",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.sandsresortsmacao.cn/entertainment/lay-zhang-2026.html"
+        }
+      ]
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-d9ecc426eb",
     "provinceId": "province-fa89ccdea4",
@@ -9,9 +9,59 @@
     "cityName": "泰安市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-d9ecc426eb",
+    "cityName": "泰安市",
+    "provinceName": "山东省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-taian-basketball-gov"
+    ],
+    "candidateEventIds": [
+      "sport-taian-youth-basketball-20260822"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "sport-taian-youth-basketball-20260822",
+      "cityId": "city-d9ecc426eb",
+      "name": "“决战泰山之巅”2026泰山小篮球精英赛",
+      "type": "sport",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-26",
+      "venue": "泰安市（具体赛场以竞赛通知为准）",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "泰安市体育局",
+      "sourceUrl": "https://tyj.taian.gov.cn/art/2026/7/13/art_45314_10304318.html",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://tyj.taian.gov.cn/art/2026/7/13/art_45314_10304318.html"
+        }
+      ]
+    }
+  ]
 }

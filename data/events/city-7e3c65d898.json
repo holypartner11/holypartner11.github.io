@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-7e3c65d898",
     "provinceId": "province-fa89ccdea4",
@@ -9,9 +9,36 @@
     "cityName": "济南市"
   },
   "sourceHealth": {
-    "healthy": 3,
+    "healthy": 4,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-7e3c65d898",
+    "cityName": "济南市",
+    "provinceName": "山东省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-jinan-zhoushen-official"
+    ],
+    "candidateEventIds": [
+      "expo-jinan-ev-20260821",
+      "performance-jinan-zhoushen-20260822"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 1,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
     {
@@ -47,6 +74,29 @@
           "changedAt": "2026-08-17T12:45:00+08:00",
           "changeType": "created",
           "sourceUrl": "https://www.jufair.com/exhibition/9856.html"
+        }
+      ]
+    },
+    {
+      "id": "performance-jinan-zhoushen-20260822",
+      "cityId": "city-7e3c65d898",
+      "name": "周深2026「深深的」巡回演唱会济南站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "济南奥林匹克体育中心体育场",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "周深工作室官方公告",
+      "sourceUrl": "https://www.sina.cn/news/detail/5321652667417775.html",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.sina.cn/news/detail/5321652667417775.html"
         }
       ]
     }

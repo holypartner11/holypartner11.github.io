@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-0b4898fe18",
     "provinceId": "province-9de0727170",
@@ -9,9 +9,59 @@
     "cityName": "东莞市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-0b4898fe18",
+    "cityName": "东莞市",
+    "provinceName": "广东省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-dongguan-culture-permit"
+    ],
+    "candidateEventIds": [
+      "performance-dongguan-leon-20260822"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "performance-dongguan-leon-20260822",
+      "cityId": "city-0b4898fe18",
+      "name": "2026黎明巡回演唱会东莞站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "venue": "东莞银行篮球中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "文化和旅游部涉外演出审批结果",
+      "sourceUrl": "https://zwfw.mct.gov.cn/wycx/qgswyyxychd/qgswyyxychdjg/xq/?id=deb14c6291c825270519372b6a3ef0ed",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://zwfw.mct.gov.cn/wycx/qgswyyxychd/qgswyyxychdjg/xq/?id=deb14c6291c825270519372b6a3ef0ed"
+        }
+      ]
+    }
+  ]
 }

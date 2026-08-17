@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-0bf142c3a4",
     "provinceId": "province-e1f6b2f96a",
@@ -9,11 +9,73 @@
     "cityName": "郑州市"
   },
   "sourceHealth": {
-    "healthy": 3,
+    "healthy": 4,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-0bf142c3a4",
+    "cityName": "郑州市",
+    "provinceName": "河南省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "corroborated",
+    "sourceRunIds": [
+      "source-zhengzhou-concert-bendibao"
+    ],
+    "candidateEventIds": [
+      "performance-zhengzhou-shigenqintian-20260821",
+      "expo-zhengzhou-tissue-20260823"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 1,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
+    {
+      "id": "performance-zhengzhou-shigenqintian-20260821",
+      "cityId": "city-0bf142c3a4",
+      "name": "十个勤天“贰零贰贰”巡回演唱会郑州站",
+      "type": "performance",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "郑州奥林匹克体育中心体育馆",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "郑州本地宝、河南演出审批公开信息转载",
+      "sourceUrl": "https://m.zz.bendibao.com/xiuxian/152562.shtm",
+      "sourceEvidence": [
+        {
+          "name": "郑州本地宝演出信息",
+          "url": "https://m.zz.bendibao.com/xiuxian/152562.shtm",
+          "role": "corroborating"
+        },
+        {
+          "name": "河南演出审批公开信息转载",
+          "url": "https://news.10jqka.com.cn/20260623/c677649805.shtml",
+          "role": "official_derived"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://m.zz.bendibao.com/xiuxian/152562.shtm"
+        }
+      ]
+    },
     {
       "id": "expo-zhengzhou-tissue-20260823",
       "cityId": "city-0bf142c3a4",

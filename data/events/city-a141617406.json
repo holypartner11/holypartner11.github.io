@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-a141617406",
     "provinceId": "province-92c5737113",
@@ -9,9 +9,59 @@
     "cityName": "哈尔滨市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-a141617406",
+    "cityName": "哈尔滨市",
+    "provinceName": "黑龙江省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-harbin-culture-gov"
+    ],
+    "candidateEventIds": [
+      "performance-harbin-luodayou-20260822"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "performance-harbin-luodayou-20260822",
+      "cityId": "city-a141617406",
+      "name": "2026罗大佑春龙交响夜音乐会哈尔滨站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "哈尔滨大剧院·歌剧厅",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "黑龙江省文化和旅游厅",
+      "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114261/202605/c00_31944604.shtml",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://wlt.hlj.gov.cn/wlt/c114261/202605/c00_31944604.shtml"
+        }
+      ]
+    }
+  ]
 }

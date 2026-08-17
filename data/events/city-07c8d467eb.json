@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-07c8d467eb",
     "provinceId": "province-8a591c995f",
@@ -9,9 +9,59 @@
     "cityName": "武汉市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-07c8d467eb",
+    "cityName": "武汉市",
+    "provinceName": "湖北省",
+    "status": "pending_review",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "corroborated",
+    "sourceRunIds": [
+      "source-wuhan-concert-bendibao"
+    ],
+    "candidateEventIds": [
+      "performance-wuhan-tank-20260822"
+    ],
+    "confirmedEventCount": 0,
+    "pendingEventCount": 1,
+    "note": "本轮发现候选，但关键字段尚未达到确认门槛。"
+  },
+  "events": [
+    {
+      "id": "performance-wuhan-tank-20260822",
+      "cityId": "city-07c8d467eb",
+      "name": "Tank吕建忠“第∞回合”巡回演唱会武汉站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "venue": "武汉体育中心体育馆",
+      "status": "pending",
+      "confidence": "pending",
+      "sourceName": "武汉本地宝演出指南",
+      "sourceUrl": "https://wh.bendibao.com/xiuxian/2026717/199067.shtm",
+      "lastVerifiedAt": null,
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://wh.bendibao.com/xiuxian/2026717/199067.shtm"
+        }
+      ]
+    }
+  ]
 }

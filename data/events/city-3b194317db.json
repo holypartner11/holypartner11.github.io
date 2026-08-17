@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-3b194317db",
     "provinceId": "province-9de0727170",
@@ -9,9 +9,37 @@
     "cityName": "广州市"
   },
   "sourceHealth": {
-    "healthy": 3,
+    "healthy": 4,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-3b194317db",
+    "cityName": "广州市",
+    "provinceName": "广东省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-guangzhou-culture-bureau"
+    ],
+    "candidateEventIds": [
+      "expo-guangzhou-aag-20260819",
+      "gzfair-20260821",
+      "performance-guangzhou-xusong-20260821"
+    ],
+    "confirmedEventCount": 3,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
     {
@@ -57,6 +85,42 @@
           "changedAt": "2026-08-16T10:20:00+08:00",
           "changeType": "created",
           "sourceUrl": "https://www.gzfair.com.cn/"
+        }
+      ]
+    },
+    {
+      "id": "performance-guangzhou-xusong-20260821",
+      "cityId": "city-3b194317db",
+      "name": "许嵩2026「安泊猜想」巡回演唱会广州站",
+      "type": "performance",
+      "startDate": "2026-08-21",
+      "endDate": "2026-08-23",
+      "venue": "广东奥林匹克体育中心体育场",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "广州市文化广电旅游局公开信息、演出票务页",
+      "sourceUrl": "https://www.sina.cn/media/2532579261",
+      "sourceEvidence": [
+        {
+          "name": "广州市文化广电旅游局公开信息",
+          "url": "https://www.sina.cn/media/2532579261",
+          "role": "official"
+        },
+        {
+          "name": "桔子密码演出票务页",
+          "url": "https://m.juzimima.com/event/5740/",
+          "role": "corroborating"
+        }
+      ],
+      "clusterNote": "公开场次为8月21日和23日；甘特条按住宿影响窗口连续展示，8月22日不代表有公开演出。",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.sina.cn/media/2532579261"
         }
       ]
     }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-b170bf6a2c",
     "provinceId": "province-9de0727170",
@@ -9,9 +9,72 @@
     "cityName": "佛山市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 3,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-b170bf6a2c",
+    "cityName": "佛山市",
+    "provinceName": "广东省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "corroborated",
+    "sourceRunIds": [
+      "source-foshan-concert-bendibao",
+      "source-foshan-concert-trip"
+    ],
+    "candidateEventIds": [
+      "performance-foshan-wubai-20260822"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "performance-foshan-wubai-20260822",
+      "cityId": "city-b170bf6a2c",
+      "name": "伍佰 & China Blue ROCK STAR 2巡回演唱会佛山站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "佛山国际体育文化演艺中心",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "佛山本地宝、Trip.com",
+      "sourceUrl": "https://m.fs.bendibao.com/xiuxian/index.php",
+      "sourceEvidence": [
+        {
+          "name": "佛山本地宝演出日历",
+          "url": "https://m.fs.bendibao.com/xiuxian/index.php",
+          "role": "corroborating"
+        },
+        {
+          "name": "Trip.com佛山活动页",
+          "url": "https://tw.trip.com/events/%E4%BD%9B%E5%B1%B1%2B%2B%E4%BC%8D%E4%BD%B0%2B%2BChina%2BBlue%2B2026Rock%2BStar%2B2%E4%B8%96%E7%95%8C%E5%B7%A1%E8%BF%B4%E6%BC%94%E5%94%B1%E6%9C%83-20260415/",
+          "role": "corroborating"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://m.fs.bendibao.com/xiuxian/index.php"
+        }
+      ]
+    }
+  ]
 }

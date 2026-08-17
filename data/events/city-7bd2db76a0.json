@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-7bd2db76a0",
     "provinceId": "province-f4aa2fb986",
@@ -9,9 +9,59 @@
     "cityName": "渭南市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-7bd2db76a0",
+    "cityName": "渭南市",
+    "provinceName": "陕西省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-weinan-games-official"
+    ],
+    "candidateEventIds": [
+      "sport-weinan-shaanxi-games-20260815"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "sport-weinan-shaanxi-games-20260815",
+      "cityId": "city-7bd2db76a0",
+      "name": "陕西省第十八届运动会",
+      "type": "sport",
+      "startDate": "2026-08-15",
+      "endDate": "2026-08-20",
+      "venue": "渭南市体育中心及全市相关赛场",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "陕西省第十八届运动会官网",
+      "sourceUrl": "https://www.18sxsyh.com/ldcms/toutiaoxinwen/687.html",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.18sxsyh.com/ldcms/toutiaoxinwen/687.html"
+        }
+      ]
+    }
+  ]
 }

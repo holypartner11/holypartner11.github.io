@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-48b943fc63",
     "provinceId": "province-8cba0df6a5",
@@ -9,9 +9,59 @@
     "cityName": "拉萨市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-48b943fc63",
+    "cityName": "拉萨市",
+    "provinceName": "西藏自治区",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-lhasa-halfmarathon-gov"
+    ],
+    "candidateEventIds": [
+      "sport-lhasa-halfmarathon-20260823"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "sport-lhasa-halfmarathon-20260823",
+      "cityId": "city-48b943fc63",
+      "name": "2026拉萨半程马拉松",
+      "type": "sport",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-23",
+      "venue": "西藏自治区会展中心广场至布达拉宫广场",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "拉萨市人民政府",
+      "sourceUrl": "https://www.lasa.gov.cn/lasa/tggs/202604/8feb314b59c643dc91a62860b80b7c47.shtml",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.lasa.gov.cn/lasa/tggs/202604/8feb314b59c643dc91a62860b80b7c47.shtml"
+        }
+      ]
+    }
+  ]
 }

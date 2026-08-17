@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-bd4294bc65",
     "provinceId": "province-234a7010c8",
@@ -9,11 +9,73 @@
     "cityName": "宁波市"
   },
   "sourceHealth": {
-    "healthy": 3,
+    "healthy": 4,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-bd4294bc65",
+    "cityName": "宁波市",
+    "provinceName": "浙江省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "corroborated",
+    "sourceRunIds": [
+      "source-ningbo-sports-directory"
+    ],
+    "candidateEventIds": [
+      "sport-ningbo-youth-tennis-20260817",
+      "expo-ningbo-auto-20260821"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 1,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
+    {
+      "id": "sport-ningbo-youth-tennis-20260817",
+      "cityId": "city-bd4294bc65",
+      "name": "全国青少年网球排名赛暨中国青少年网球巡回赛U12 A2000",
+      "type": "sport",
+      "startDate": "2026-08-17",
+      "endDate": "2026-08-30",
+      "venue": "甬江TOD体育公园五诺体育网球馆",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "宁波市暑期体育赛事目录、全国赛事名录",
+      "sourceUrl": "https://nb.ifeng.com/c/8upGRTDMWH5",
+      "sourceEvidence": [
+        {
+          "name": "宁波市暑期体育赛事目录（凤凰网宁波转载）",
+          "url": "https://nb.ifeng.com/c/8upGRTDMWH5",
+          "role": "official_derived"
+        },
+        {
+          "name": "2026年运动员技术等级称号赛事名录",
+          "url": "https://www.jyg.gov.cn/cms_files/filemanager/1131854645/attach/20257/7c87a3ab8d774f3fa965babfc0e1949c.pdf?fileName=2026%E5%B9%B4%E8%BF%90%E5%8A%A8%E5%91%98%E6%8A%80%E6%9C%AF%E7%AD%89%E7%BA%A7%E7%A7%B0%E5%8F%B7%E8%B5%9B%E4%BA%8B%E5%90%8D%E5%BD%95%EF%BC%88%E5%85%A8%E5%9B%BD%E6%AF%94%E8%B5%9B%EF%BC%89.pdf",
+          "role": "official"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://nb.ifeng.com/c/8upGRTDMWH5"
+        }
+      ]
+    },
     {
       "id": "expo-ningbo-auto-20260821",
       "cityId": "city-bd4294bc65",

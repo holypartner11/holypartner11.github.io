@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-6368dc04e5",
     "provinceId": "province-0b38f21fd3",
@@ -9,9 +9,71 @@
     "cityName": "大同市"
   },
   "sourceHealth": {
-    "healthy": 1,
+    "healthy": 2,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
   },
-  "events": []
+  "scan": {
+    "cityId": "city-6368dc04e5",
+    "cityName": "大同市",
+    "provinceName": "山西省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-datong-wse-organizer"
+    ],
+    "candidateEventIds": [
+      "sport-datong-wse10k-20260823"
+    ],
+    "confirmedEventCount": 1,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
+  },
+  "events": [
+    {
+      "id": "sport-datong-wse10k-20260823",
+      "cityId": "city-6368dc04e5",
+      "name": "2026 WSE 10KM OPEN大同站",
+      "type": "sport",
+      "startDate": "2026-08-23",
+      "endDate": "2026-08-23",
+      "venue": "大同文瀛湖生态公园",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "WSE组委会报名页、Ahotu赛事目录",
+      "sourceUrl": "https://zuicool.com/event/64911",
+      "sourceEvidence": [
+        {
+          "name": "WSE组委会报名页",
+          "url": "https://zuicool.com/event/64911",
+          "role": "official"
+        },
+        {
+          "name": "Ahotu国际路跑赛事目录",
+          "url": "https://www.ahotu.com/de/veranstaltung/wse-10km-open-datong-stop",
+          "role": "corroborating"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://zuicool.com/event/64911"
+        }
+      ]
+    }
+  ]
 }

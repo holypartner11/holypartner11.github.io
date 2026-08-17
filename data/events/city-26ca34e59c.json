@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-26ca34e59c",
     "provinceId": "province-99c454c768",
@@ -9,9 +9,40 @@
     "cityName": "苏州市"
   },
   "sourceHealth": {
-    "healthy": 3,
+    "healthy": 6,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-26ca34e59c",
+    "cityName": "苏州市",
+    "provinceName": "江苏省",
+    "status": "events_found",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "authoritative",
+    "sourceRunIds": [
+      "source-suzhou-sports-gov-2026",
+      "source-suzhou-concert-bendibao",
+      "source-suzhou-concert-sina"
+    ],
+    "candidateEventIds": [
+      "expo-suzhou-medicalfair-20260820",
+      "sport-suzhou-disc-accuracy-20260821",
+      "performance-suzhou-henry-20260822",
+      "sport-suzhou-u15-football-20260822"
+    ],
+    "confirmedEventCount": 4,
+    "pendingEventCount": 0,
+    "note": "本轮发现至少一条达到发布门槛的事件。"
   },
   "events": [
     {
@@ -57,6 +88,64 @@
           "changedAt": "2026-08-17T12:45:00+08:00",
           "changeType": "created",
           "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/wtly/202603/0ecb22c619fb4564a538cf1147e6a005.shtml"
+        }
+      ]
+    },
+    {
+      "id": "sport-suzhou-u15-football-20260822",
+      "cityId": "city-26ca34e59c",
+      "name": "江苏省第二十一届运动会青少年部足球U15组决赛",
+      "type": "sport",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-31",
+      "venue": "苏州太湖足球运动中心",
+      "status": "confirmed",
+      "confidence": "official",
+      "sourceName": "苏州市人民政府体育赛事目录",
+      "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/wtly/202603/0ecb22c619fb4564a538cf1147e6a005.shtml",
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": "2026-08-17T18:30:00+08:00",
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://www.suzhou.gov.cn/szsrmzf/wtly/202603/0ecb22c619fb4564a538cf1147e6a005.shtml"
+        }
+      ]
+    },
+    {
+      "id": "performance-suzhou-henry-20260822",
+      "cityId": "city-26ca34e59c",
+      "name": "HENRY刘宪华2026世界巡回演唱会苏州站",
+      "type": "performance",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-23",
+      "venue": "苏州奥林匹克体育中心体育馆",
+      "status": "confirmed",
+      "confidence": "multi_source",
+      "sourceName": "苏州本地宝、新浪演出信息",
+      "sourceUrl": "https://m.suzhou.bendibao.com/xiuxian/index.php?start_date=&view=1",
+      "sourceEvidence": [
+        {
+          "name": "苏州本地宝演出日历",
+          "url": "https://m.suzhou.bendibao.com/xiuxian/index.php?start_date=&view=1",
+          "role": "corroborating"
+        },
+        {
+          "name": "新浪演出信息",
+          "url": "https://ent.sina.cn/2026-07-14/detail-inihusxy5195992.d.html",
+          "role": "corroborating"
+        }
+      ],
+      "firstSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastSeenAt": "2026-08-17T18:30:00+08:00",
+      "lastVerifiedAt": null,
+      "history": [
+        {
+          "changedAt": "2026-08-17T18:30:00+08:00",
+          "changeType": "created",
+          "sourceUrl": "https://m.suzhou.bendibao.com/xiuxian/index.php?start_date=&view=1"
         }
       ]
     }

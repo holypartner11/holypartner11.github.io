@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "20260817124500",
-  "generatedAt": "2026-08-17T04:48:50.340Z",
+  "version": "20260817183000",
+  "generatedAt": "2026-08-17T06:37:41.192Z",
   "city": {
     "id": "city-46fca73134",
     "provinceId": "province-f1483dfeb3",
@@ -11,7 +11,29 @@
   "sourceHealth": {
     "healthy": 1,
     "failed": 0,
-    "lastSuccessfulRunAt": "2026-08-17T12:45:00+08:00"
+    "lastSuccessfulRunAt": "2026-08-17T18:30:00+08:00"
+  },
+  "scan": {
+    "cityId": "city-46fca73134",
+    "cityName": "岳阳市",
+    "provinceName": "湖南省",
+    "status": "scanned_no_candidate",
+    "queryCount": 1,
+    "scannedAt": "2026-08-17T18:30:00+08:00",
+    "categoriesChecked": [
+      "会展",
+      "大型演出",
+      "体育赛事",
+      "考试",
+      "节庆",
+      "会议论坛"
+    ],
+    "coverageQuality": "search_only",
+    "sourceRunIds": [],
+    "candidateEventIds": [],
+    "confirmedEventCount": 0,
+    "pendingEventCount": 0,
+    "note": "本轮已完成跨类型搜索，未发现达到跨城住宿需求门槛的候选；不代表当地没有任何活动。"
   },
   "events": []
 }
